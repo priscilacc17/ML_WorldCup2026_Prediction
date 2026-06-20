@@ -17,7 +17,7 @@
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Priscila Carrascal**
 - GitHub: [@priscilacc17](https://github.com/priscilacc17/priscilacc17)
 - Email: carrascalpriscila@gmail.com
 
