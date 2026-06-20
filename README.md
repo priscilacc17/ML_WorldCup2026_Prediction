@@ -38,11 +38,8 @@ The model is trained using more than <b>49,000 historical international matches<
 ---
 
 ## 🏆 Example Dashboard
-<div align="center">
 
 <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200" width="510" align="right"/>
-
-</div>
 
 The application provides:
 
@@ -58,7 +55,7 @@ The application provides:
 ---
 
 ## ⚙️ Machine Learning Pipeline
-
+<div align="center">
 ```text
 Historical International Matches
                 │
@@ -84,9 +81,9 @@ Historical International Matches
       Interactive Dashboard
 ```
 ---
-
+</div>
 ## 🧠 Model Features
-
+<div align="center">
 <table>
 <tr>
 <th>Feature</th>
@@ -116,7 +113,7 @@ Historical International Matches
 </table>
 
 ---
-
+</div>
 ## 📊 Technologies
 
 <table>
