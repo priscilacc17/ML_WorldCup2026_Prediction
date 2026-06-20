@@ -14,9 +14,7 @@ Machine Learning project for predicting FIFA World Cup match outcomes using
 <img src="https://img.shields.io/badge/Scikit--Learn-Modeling-orange"/>
 <img src="https://img.shields.io/badge/License-MIT-lightgrey"/></br>
 
-<img src="https://i.pinimg.com/736x/07/80/fe/0780fe9858f6613bcfe21600d2b7d160.jpg" width="1000"/>
-
-
+<img src="https://i.pinimg.com/736x/07/80/fe/0780fe9858f6613bcfe21600d2b7d160.jpg" width="800"/>
 
 </div>
 
