@@ -42,7 +42,7 @@ The model is trained using more than <b>49,000 historical international matches<
 
 <div align="center">
 
-<img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200" align="right" alt="goal" />
+<img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200" width="300" align="right" alt="goal" />
 
 </div>
 
