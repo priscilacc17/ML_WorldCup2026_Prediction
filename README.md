@@ -84,7 +84,11 @@ Historical International Matches
 
 <div align="center">
   
-## 🧠 Model Features
+<div align="center">
+
+# 🧠 Model Features
+
+<br>
 
 <table>
 <tr>
@@ -93,82 +97,46 @@ Historical International Matches
 </tr>
 
 <tr>
-<td>Elo Difference</td>
-<td>Strength differential between national teams</td>
+<td>⚡ Elo Difference</td>
+<td>National team strength differential based on historical performance</td>
 </tr>
 
 <tr>
-<td>Neutral Venue</td>
+<td>🌍 Neutral Venue</td>
 <td>World Cup style neutral-site adjustment</td>
 </tr>
 
 <tr>
-<td>Official Match Flag</td>
-<td>Differentiates official competitions from friendlies</td>
+<td>🏆 Official Match Flag</td>
+<td>Distinguishes official competitions from friendly matches</td>
 </tr>
 
 <tr>
-<td>World Cup Flag</td>
-<td>Additional weighting for World Cup matches</td>
+<td>⭐ World Cup Weighting</td>
+<td>Additional importance assigned to FIFA World Cup matches</td>
+</tr>
+
+<tr>
+<td>📈 Expected Goals</td>
+<td>XGBoost-based prediction of team scoring output</td>
+</tr>
+
+<tr>
+<td>🎯 Poisson Simulation</td>
+<td>Full probability distribution for every realistic scoreline</td>
 </tr>
 
 </table>
 
----
-
-## 📊 Technologies
-
-<table>
-<tr>
-<td>Python</td>
-<td>XGBoost</td>
-<td>Scikit-Learn</td>
-</tr>
-
-<tr>
-<td>Pandas</td>
-<td>NumPy</td>
-<td>SciPy</td>
-</tr>
-
-<tr>
-<td>Streamlit</td>
-<td>Matplotlib</td>
-<td>Seaborn</td>
-</tr>
-
-<tr>
-<td>Joblib</td>
-<td>Elo Ratings</td>
-<td>Poisson Models</td>
-</tr>
-
-</table>
-
----
-
-## 📁 Project Structure
-
-```text
-worldcup_predictor/
-│
-├── app.py
-├── predictor.py
-├── train_model.py
-├── requirements.txt
-│
-├── data/
-│   └── results.csv
-│
-└── models/
-    ├── home_model.pkl
-    ├── away_model.pkl
-    └── elo.pkl
-```
-
----
 </div>
-## 🚀 Installation
+
+---
+
+<div align="center">
+
+# 🚀 Installation & Usage
+
+</div>
 
 ```bash
 git clone https://github.com/yourusername/worldcup-predictor.git
@@ -177,31 +145,22 @@ cd worldcup-predictor
 
 python -m venv .venv
 
+# Windows
 .venv\Scripts\activate
+
+# Linux / macOS
+source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
 
----
-
-## 🏗️ Train Models
+### Train Models
 
 ```bash
 python train_model.py
 ```
 
-Generated artifacts:
-
-```text
-models/
-├── home_model.pkl
-├── away_model.pkl
-└── elo.pkl
-```
-
----
-
-## 📈 Launch Dashboard
+### Launch Dashboard
 
 ```bash
 streamlit run app.py
@@ -215,7 +174,11 @@ http://localhost:8501
 
 ---
 
-## 🎯 Example Prediction Output
+<div align="center">
+
+# 🎯 Example Prediction Output
+
+</div>
 
 ```text
 England vs Argentina
@@ -235,43 +198,70 @@ Most Likely Score:
 
 ---
 
-## 📉 Poisson Goal Matrix
-
 <div align="center">
+
+# 📉 Poisson Goal Matrix
+
+<br>
 
 <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=1200" width="850"/>
 
+<br><br>
+
+The system generates a complete probability matrix for every realistic score combination,
+allowing detailed tournament simulations and match outcome analysis.
+
 </div>
-
-The system generates a complete Poisson probability matrix for all realistic score combinations, allowing detailed match simulation and outcome analysis.
-
----
-
-## 💼 Portfolio Relevance
-
-This project demonstrates practical experience in:
-
-<ul>
-<li>Machine Learning Engineering</li>
-<li>Feature Engineering</li>
-<li>Predictive Modeling</li>
-<li>Sports Analytics</li>
-<li>Probabilistic Modeling</li>
-<li>MLOps Fundamentals</li>
-<li>Model Serialization and Deployment</li>
-<li>Interactive Data Applications</li>
-</ul>
-
----
-
-## 📄 License
-
-MIT License
 
 ---
 
 <div align="center">
 
-<b>Built with Python, XGBoost, Elo Ratings and Poisson Modeling ⚽</b>
+# 💼 Portfolio Relevance
+
+<br>
+
+<table>
+<tr>
+<td>🤖 Machine Learning Engineering</td>
+<td>📊 Predictive Analytics</td>
+</tr>
+
+<tr>
+<td>⚽ Sports Analytics</td>
+<td>🧠 Feature Engineering</td>
+</tr>
+
+<tr>
+<td>📈 Probabilistic Modeling</td>
+<td>🚀 Model Deployment</td>
+</tr>
+
+<tr>
+<td>🔬 Data Science</td>
+<td>🏗️ End-to-End ML Pipelines</td>
+</tr>
+
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+# 📄 License
+
+MIT License
+
+<br><br>
+
+<img src="https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=1200" width="900"/>
+
+<br><br>
+
+<h2>⚽ Built with Python, XGBoost, Elo Ratings & Poisson Modeling</h2>
+
+<h3>FIFA World Cup 2026 Prediction System</h3>
 
 </div>
