@@ -7,15 +7,15 @@ Machine Learning project for predicting FIFA World Cup match outcomes using
 <b>XGBoost</b>, <b>Elo Ratings</b>, and <b>Poisson Goal Modeling</b>.
 </p>
 
-<img src="https://i.pinimg.com/736x/07/80/fe/0780fe9858f6613bcfe21600d2b7d160.jpg" width="1000"/>
-
-<br><br>
-
 <img src="https://img.shields.io/badge/Python-3.12-blue"/>
 <img src="https://img.shields.io/badge/XGBoost-ML-green"/>
 <img src="https://img.shields.io/badge/Streamlit-Dashboard-red"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-Modeling-orange"/>
 <img src="https://img.shields.io/badge/License-MIT-lightgrey"/>
+
+<img src="https://i.pinimg.com/736x/07/80/fe/0780fe9858f6613bcfe21600d2b7d160.jpg" width="1000"/>
+
+<br><br>
 
 </div>
 
