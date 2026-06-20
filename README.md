@@ -55,7 +55,7 @@ The application provides:
 ---
 
 ## ⚙️ Machine Learning Pipeline
-<div align="center">
+
 ```text
 Historical International Matches
                 │
@@ -81,7 +81,7 @@ Historical International Matches
       Interactive Dashboard
 ```
 ---
-</div>
+
 ## 🧠 Model Features
 <div align="center">
 <table>
