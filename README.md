@@ -8,7 +8,7 @@
 
 > Machine Learning project for predicting FIFA World Cup match outcomes using **XGBoost**, **Elo Ratings**, and **Poisson Goal Modeling**
 
-![Football Banner](https://img.shields.io/badge/Machine%20Learning-Sports%20Analytics-blueviolet?style=for-the-badge)
+![Football Analytics](https://i.pinimg.com/736x/07/80/fe/0780fe9858f6613bcfe21600d2b7d160.jpg?w=800)
 
 ---
 
