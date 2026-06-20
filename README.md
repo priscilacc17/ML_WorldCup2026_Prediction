@@ -78,8 +78,6 @@ The interactive Streamlit application provides comprehensive match analysis:
 
 <div align="center">
 
-# ⚙️ Machine Learning Pipeline
-
 <table>
 <tr>
 <td align="center">
@@ -137,7 +135,7 @@ Training
 <td></td>
 <td></td>
 <td></td>
-<td align="center">
+<td align="right">
 
 ⬇️
 
