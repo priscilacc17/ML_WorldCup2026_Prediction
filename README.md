@@ -104,8 +104,8 @@ The interactive Streamlit application provides comprehensive match analysis:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/worldcup-predictor.git
-cd worldcup-predictor
+git clone https://github.com/priscilacc17/ML_WorldCup2026_Prediction.git
+cd ML_WorldCup2026_Prediction
 ```
 
 ### Create Virtual Environment
@@ -138,6 +138,26 @@ This will:
 - Engineer features for model training
 - Train XGBoost models
 - Save model artifacts
+
+### Prediction Engine
+
+```bash
+python predictor.py
+```
+
+This module is responsible for match simulation and probability estimation.
+
+It will:
+
+- Load trained XGBoost models
+- Load precomputed team Elo ratings
+- Generate expected goals (λ) for both teams
+- Simulate scorelines using Poisson distributions
+- Calculate win, draw, and loss probabilities
+- Identify the most likely scoreline
+- Generate Top 10 predicted results
+- Build the Poisson goal probability matrix
+- Return all outputs to the Streamlit dashboard
 
 ### Launch Interactive Dashboard
 
