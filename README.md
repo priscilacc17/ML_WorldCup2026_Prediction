@@ -82,8 +82,9 @@ Historical International Matches
 ```
 ---
 
-## 🧠 Model Features
 <div align="center">
+## 🧠 Model Features
+
 <table>
 <tr>
 <th>Feature</th>
@@ -113,7 +114,7 @@ Historical International Matches
 </table>
 
 ---
-</div>
+
 ## 📊 Technologies
 
 <table>
@@ -165,7 +166,7 @@ worldcup_predictor/
 ```
 
 ---
-
+</div>
 ## 🚀 Installation
 
 ```bash
