@@ -211,22 +211,23 @@ This project demonstrates expertise in:
 ## 📁 Project Structure
 
 ```
-worldcup-predictor/
+ML_WorldCup2026_Prediction/
 ├── README.md
 ├── requirements.txt
+│
 ├── data/
-│   ├── matches.csv          # Historical match data
-│   └── elo_ratings.csv      # Calculated Elo ratings
+│   └── results.csv         # Historical international football matches dataset
+│
 ├── models/
-│   ├── xgboost_home.pkl     # Home team goals model
-│   └── xgboost_away.pkl     # Away team goals model
-├── src/
-│   ├── elo.py               # Elo calculation logic
-│   ├── features.py          # Feature engineering
-│   ├── models.py            # Model training
-│   └── predictions.py       # Prediction functions
-├── train_model.py           # Training script
-└── app.py                   # Streamlit dashboard
+│   ├── home_model.pkl      # Trained XGBoost model for home team goals
+│   ├── away_model.pkl      # Trained XGBoost model for away team goals
+│   └── elo.pkl             # Precomputed Elo ratings for all national teams
+│
+├── train_model.py          # Elo calculation, feature engineering and model training
+├── predictor.py            # Match prediction engine and Poisson score simulation
+├── app.py                  # Interactive Streamlit dashboard
+│
+└── .gitignore
 ```
 
 ---
