@@ -45,7 +45,8 @@ This project is an **end-to-end Machine Learning system** designed to predict in
 
 The pipeline combines:
 
-- **Elo Rating calculations** from historical international matches
+- **Historical Football Internacional Matches** from https://github.com/martj42/international_results
+- **Elo Rating calculations** for team strength estimation
 - **XGBoost Poisson regression models** for expected goals prediction
 - **Poisson probability distributions** for scoreline simulation
 - **Interactive Streamlit dashboard** for visualization
@@ -279,25 +280,12 @@ The models achieve strong predictive performance through:
 
 ---
 
-## 🎮 Interactive Features
-
-### Dashboard Capabilities
-
-- 🔍 **Match Search** - Find any international match prediction
-- 🗓️ **Tournament Mode** - Simulate full tournament brackets
-- 📊 **Statistical Analysis** - Detailed match breakdowns
-- 🌍 **Team Comparison** - Head-to-head team analysis
-- 📈 **Historical Trends** - Team form and Elo evolution
-- 💾 **Export Results** - Download predictions as CSV
-
----
-
 ## 📚 References & Resources
 
+- [Football Historical Results](https://github.com/martj42/international_results)
 - [XGBoost Documentation](https://xgboost.readthedocs.io/)
 - [Poisson Distribution in Sports](https://en.wikipedia.org/wiki/Poisson_regression)
 - [Elo Rating System](https://en.wikipedia.org/wiki/Elo_rating_system)
-- [FIFA World Cup History](https://www.fifa.com/)
 - [Streamlit Documentation](https://docs.streamlit.io/)
 
 ---
