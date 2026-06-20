@@ -40,7 +40,7 @@ The model is trained using more than <b>49,000 historical international matches<
 ## 🏆 Example Dashboard
 <div align="center">
 
-<img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200" width="100"/>
+<img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200" width="100" align="right"/>
 
 </div>
 
