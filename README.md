@@ -7,7 +7,7 @@ Machine Learning project for predicting FIFA World Cup match outcomes using
 <b>XGBoost</b>, <b>Elo Ratings</b>, and <b>Poisson Goal Modeling</b>.
 </p>
 
-<img src="https://static.latinspots.com/notas/Gnota_91457.jpg?timestamp=1746041488" width="600"/>
+<img src="https://i.pinimg.com/736x/07/80/fe/0780fe9858f6613bcfe21600d2b7d160.jpg" width="600"/>
 
 <br><br>
 
