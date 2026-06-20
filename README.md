@@ -12,6 +12,14 @@
 
 ---
 
+## 👨‍💻 Author
+
+**Your Name**
+- GitHub: [@priscilacc17](https://github.com/priscilacc17/priscilacc17)
+- Email: carrascalpriscila@gmail.com
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
@@ -325,14 +333,6 @@ Contributions are welcome! Please feel free to:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
 
 ---
 
