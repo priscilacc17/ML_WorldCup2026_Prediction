@@ -290,33 +290,6 @@ The models achieve strong predictive performance through:
 
 ---
 
-## 🚀 Quick Start Example
-
-```python
-from src.predictions import predict_match
-from src.elo import load_elo_ratings
-
-# Load team ratings
-elo_ratings = load_elo_ratings()
-
-# Predict a match
-prediction = predict_match(
-    home_team="England",
-    away_team="Argentina",
-    elo_ratings=elo_ratings,
-    neutral_venue=True
-)
-
-# Access results
-print(f"Home xG: {prediction['home_xg']:.2f}")
-print(f"Away xG: {prediction['away_xg']:.2f}")
-print(f"Win Probability: {prediction['home_win_prob']:.1%}")
-print(f"Draw Probability: {prediction['draw_prob']:.1%}")
-print(f"Loss Probability: {prediction['away_win_prob']:.1%}")
-```
-
----
-
 ## 📚 References & Resources
 
 - [XGBoost Documentation](https://xgboost.readthedocs.io/)
