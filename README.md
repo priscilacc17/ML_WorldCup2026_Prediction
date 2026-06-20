@@ -76,23 +76,132 @@ The interactive Streamlit application provides comprehensive match analysis:
 
 ## ⚙️ Machine Learning Pipeline
 
-```
-Historical International Matches
-            ↓
-     Elo Calculation
-            ↓
-   Feature Engineering
-            ↓
-  XGBoost Goal Prediction
-            ↓
-   Expected Goals (λ)
-            ↓
-    Poisson Simulation
-            ↓
-Match Outcome Probabilities
-            ↓
-   Interactive Dashboard
-```
+<div align="center">
+
+# ⚙️ Machine Learning Pipeline
+
+<table>
+<tr>
+<td align="center">
+
+🌍<br>
+<b>49,000+</b><br>
+Historical Matches
+
+</td>
+
+<td align="center">
+
+➡️
+
+</td>
+
+<td align="center">
+
+⚡<br>
+<b>Elo Rating</b><br>
+Calculation
+
+</td>
+
+<td align="center">
+
+➡️
+
+</td>
+
+<td align="center">
+
+🛠️<br>
+<b>Feature</b><br>
+Engineering
+
+</td>
+
+<td align="center">
+
+➡️
+
+</td>
+
+<td align="center">
+
+🤖<br>
+<b>XGBoost</b><br>
+Training
+
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td align="center">
+
+⬇️
+
+</td>
+
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td align="center">
+
+📊<br>
+Dashboard
+
+</td>
+
+<td align="center">
+
+⬅️
+
+</td>
+
+<td align="center">
+
+🏆<br>
+Match Outcome<br>
+Probabilities
+
+</td>
+
+<td align="center">
+
+⬅️
+
+</td>
+
+<td align="center">
+
+🎯<br>
+Poisson<br>
+Simulation
+
+</td>
+
+<td align="center">
+
+⬅️
+
+</td>
+
+<td align="center">
+
+⚽<br>
+Expected Goals<br>
+(λ)
+
+</td>
+
+</tr>
+</table>
+
+</div>
 
 ---
 
