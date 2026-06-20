@@ -101,6 +101,32 @@ The interactive Streamlit application provides comprehensive match analysis:
 - pip (Python package manager)
 - Git
 
+---
+
+### 📁 Project Structure
+
+```
+ML_WorldCup2026_Prediction/
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   └── results.csv         # Historical international football matches dataset
+│
+├── models/
+│   ├── home_model.pkl      # Trained XGBoost model for home team goals
+│   ├── away_model.pkl      # Trained XGBoost model for away team goals
+│   └── elo.pkl             # Precomputed Elo ratings for all national teams
+│
+├── train_model.py          # Elo calculation, feature engineering and model training
+├── predictor.py            # Match prediction engine and Poisson score simulation
+├── app.py                  # Interactive Streamlit dashboard
+│
+└── .gitignore
+```
+
+---
+
 ### Clone Repository
 
 ```bash
@@ -225,30 +251,6 @@ This project demonstrates expertise in:
 - 🚀 **Model Deployment** - Streamlit applications, interactive dashboards
 - 🏗️ **End-to-End ML Pipelines** - Data ingestion to production prediction
 - 🔄 **Reproducible ML** - Version control, documentation, testing
-
----
-
-## 📁 Project Structure
-
-```
-ML_WorldCup2026_Prediction/
-├── README.md
-├── requirements.txt
-│
-├── data/
-│   └── results.csv         # Historical international football matches dataset
-│
-├── models/
-│   ├── home_model.pkl      # Trained XGBoost model for home team goals
-│   ├── away_model.pkl      # Trained XGBoost model for away team goals
-│   └── elo.pkl             # Precomputed Elo ratings for all national teams
-│
-├── train_model.py          # Elo calculation, feature engineering and model training
-├── predictor.py            # Match prediction engine and Poisson score simulation
-├── app.py                  # Interactive Streamlit dashboard
-│
-└── .gitignore
-```
 
 ---
 
